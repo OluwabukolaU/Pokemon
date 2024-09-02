@@ -1,6 +1,6 @@
 # Pokemon Battle Game
 
-Welcome to the Pokemon Battle Game! This is a simple and enjoyable Python game where you can create your own Pokemon, build a team, and engage in battles against an AI opponent.
+Welcome to the Pokemon Battle Game! This is a simple and enjoyable Python game where you can create your own Pokemon, build a team, and engage in battles against a computer generated opponent.
 
 ## What You Can Do
 
@@ -13,7 +13,7 @@ Welcome to the Pokemon Battle Game! This is a simple and enjoyable Python game w
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/pokemon-battle-game.git
+   git clone https://github.com/OluwabukolaU/Pokemon.git
    cd pokemon-battle-game
    ```
 
@@ -69,12 +69,8 @@ Welcome to the Pokemon Battle Game! This is a simple and enjoyable Python game w
 
 ## Requirements
 
-To run this game, you’ll need Python 3.x installed on your machine.
+To run this game, you’ll need Python installed on your machine.
 
-## License
 
-This game is open-source and licensed under the MIT License.
 
----
-
-Feel free to dive in, create your Pokemon, and enjoy the battles! If you have any questions or suggestions, I’d love to hear from you.
+Feel free to dive in, create your Pokemon, and enjoy the battles!If you have any questions or suggestions, I’d love to hear from you.
