@@ -34,5 +34,4 @@ Welcome to the Pokemon Battle Game! This is a simple and enjoyable Python game w
 ## Requirements
 
 To run this game, you’ll need Python installed on your machine.
----
 
