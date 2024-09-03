@@ -17,15 +17,15 @@ class Player:
 
     def get_pokemon_name(self):
         while True:
-            name = input("Enter Pokémon name: ").strip()
+            name = input("Enter Pokemon name: ").strip()
             try:
                 name = int(name)
-                print("Pokemon name cannot be integers")
+                print("Pokemon name cannot be an integer")
                 continue
             except:
                 return name
 
-    # Initialize player with name, empty team and cusom pokemons
+    # Initialize player with name, empty team and custom pokemons
     def __init__(self, name):
         self.name = name
         self.pokemon = None
@@ -34,11 +34,11 @@ class Player:
 
     def choose_pokemon(self, pokemons):
         # Choose from a list of available pokemons (pokemons argument)
-        print("Choose Pokémon")
+        print("Choose Pokemon")
 
         # Return if pokemon is empty
         if not pokemons:
-            print("No Pokémon available")
+            print("No Pokemon available")
             return
 
         # Iterate over pokemons and print index to get users choice in numbers
@@ -57,12 +57,12 @@ class Player:
 
         # Switch Pokemons by selecting a different pokemon from team    
         if not self.team:
-            print("No Pokémon to switch.")
+            print("No Pokemon to switch.")
             return
 
-        print("Select Pokémon to switch from your team : ")
+        print("Select Pokemon to switch from your team : ")
 
-        # Iterate over team of user pokemon to selecta new main pokemon
+        # Iterate over team of user pokemon to select  a new main pokemon
         for count, pokemon in enumerate(self.team):
             print(f"{count + 1}: {pokemon}")
         choice = int(input("Enter choice: ").strip()) - 1
@@ -153,7 +153,7 @@ def initiate_fighting_sequence(player, opponent):
     print("\n--- Fight Ends! ---")
 
 def main():
-    # Create a pokemon object for every item in te list of pokemon names
+    # Create a pokemon object for every item in the list of pokemon names
     pokemons = [Pokemon(name) for name in ["Bulbasaur", "Charmander", "Squirtle", "Pikachu", "Eevee"]]
 
     # Create layer and opponent objects
