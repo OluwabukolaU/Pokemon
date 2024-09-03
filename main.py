@@ -182,11 +182,11 @@ def main():
             print("Player's Turn\n")
             player.display_pokemon()
 
-            # Get the players choic of decisions
+            # Get the players choice of decisions
             user_choice = int(input("Enter choice: ").strip())
 
 
-            # Call player mehod corrensponding to user input
+            # Call player method corresponding to user input
             if user_choice == 1:
                 player.choose_pokemon(pokemons)
                 turn = 'opponent'
